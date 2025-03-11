@@ -1,6 +1,5 @@
-# Tailwind + React + TypeScript + Vite
-
-This template provides a minimal setup + file structure to get Tailwind + React + TypeScript working in Vite with HMR and some ESLint rules.
+# Python Template with Makefile to run scripts
+  Minimal python template with makefile setup
 
 ## File Structure
 
