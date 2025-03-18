@@ -1,5 +1,6 @@
 # Python Template with Makefile to run scripts
-  Minimal python template with makefile setup
+
+Minimal python template with makefile setup
 
 ## File Structure
 
