@@ -11,3 +11,6 @@ install:
 init:
 	bash scripts/setup/init.sh
 	make install
+
+%:
+	@:
