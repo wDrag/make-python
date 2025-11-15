@@ -1,6 +1,6 @@
-# Python Template with Makefile to run scripts
+# Python Template with Makefile to Run Scripts
 
-Minimal python template with makefile setup
+Minimal Python template with Makefile setup.
 
 ## File Structure
 
@@ -11,17 +11,19 @@ Minimal python template with makefile setup
 │   ├── dev.sh
 │   ├── init.sh
 │   ├── install.sh
-│   └── prod.sh
+│   ├── prod.sh
 ├── main.py
 ├── Makefile
-└── requirements.txt
+├── requirements.txt
 ```
+
+> Note: The `python_modules/` directory and any `.env` or `.local` files are ignored in version control as per the `.gitignore` file.
 
 ## Usage
 
-use `make <scripts_name>`
+Use `make <script_name>` to execute the corresponding script.
 
-### Init project
+### Initialize Project
 
 ```bash
 make init
@@ -33,13 +35,13 @@ make init
 make install
 ```
 
-### Run with developpement environment
+### Run in Development Environment
 
 ```bash
 make dev
 ```
 
-### Run with production environment
+### Run in Production Environment
 
 ```bash
 make prod
